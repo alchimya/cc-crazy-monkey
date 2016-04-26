@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stop_crocodile",
+    "texture": "f1bd5eca-5ddb-47cb-8ab4-0e61180ef5bf",
+    "atlas": "",
+    "rect": [
+      0,
+      14,
+      254,
+      244
+    ],
+    "offset": [
+      -3,
+      -6
+    ],
+    "originalSize": [
+      260,
+      260
+    ],
+    "rotated": 0
+  }
+}

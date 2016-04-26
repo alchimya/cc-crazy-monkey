@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stop_kakadu",
+    "texture": "8cadf993-5ff6-4ddf-9cde-cb6036b3cc56",
+    "atlas": "",
+    "rect": [
+      14,
+      14,
+      240,
+      244
+    ],
+    "offset": [
+      4,
+      -6
+    ],
+    "originalSize": [
+      260,
+      260
+    ],
+    "rotated": 0
+  }
+}

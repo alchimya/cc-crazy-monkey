@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "game_field",
+    "texture": "d95e1fed-464e-4c74-b7b0-2434b6626e5f",
+    "atlas": "",
+    "rect": [
+      6,
+      0,
+      2542,
+      1600
+    ],
+    "offset": [
+      -3,
+      0
+    ],
+    "originalSize": [
+      2560,
+      1600
+    ],
+    "rotated": 0
+  }
+}

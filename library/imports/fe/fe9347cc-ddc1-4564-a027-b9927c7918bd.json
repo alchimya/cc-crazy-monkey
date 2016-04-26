@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stop_begemot",
+    "texture": "1d4ffad3-08f6-4196-a895-3f90f186685e",
+    "atlas": "",
+    "rect": [
+      7,
+      14,
+      247,
+      244
+    ],
+    "offset": [
+      0.5,
+      -6
+    ],
+    "originalSize": [
+      260,
+      260
+    ],
+    "rotated": 0
+  }
+}

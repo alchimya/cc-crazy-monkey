@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stop_man",
+    "texture": "16dfd1d7-c257-40fa-aa9c-ff12fbf88a28",
+    "atlas": "",
+    "rect": [
+      14,
+      9,
+      240,
+      249
+    ],
+    "offset": [
+      4,
+      -3.5
+    ],
+    "originalSize": [
+      260,
+      260
+    ],
+    "rotated": 0
+  }
+}

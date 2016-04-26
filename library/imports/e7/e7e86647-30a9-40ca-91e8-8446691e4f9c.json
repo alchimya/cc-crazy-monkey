@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stop_cocktail",
+    "texture": "5a6ed82e-f5f6-413b-bc58-71b46bb00b7f",
+    "atlas": "",
+    "rect": [
+      12,
+      3,
+      242,
+      255
+    ],
+    "offset": [
+      3,
+      -0.5
+    ],
+    "originalSize": [
+      260,
+      260
+    ],
+    "rotated": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "slot_bkg",
+    "texture": "b445de3d-104d-4e56-a2c2-69e12a3ae0a8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      2560,
+      1600
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      2560,
+      1600
+    ],
+    "rotated": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "symbols-anim",
+    "texture": "682771d1-17b1-4f1c-a9a8-116236a106d1",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      95,
+      1243
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      95,
+      1243
+    ],
+    "rotated": 0
+  }
+}

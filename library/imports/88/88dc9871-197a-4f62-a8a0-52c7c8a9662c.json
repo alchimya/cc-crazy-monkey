@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bet_max",
+    "texture": "e254b19d-dc41-4729-9ef3-848674bc20f0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      360,
+      161
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      360,
+      161
+    ],
+    "rotated": 0
+  }
+}

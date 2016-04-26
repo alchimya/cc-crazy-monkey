@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "reels_background",
+    "texture": "a269038a-62c6-4220-88b9-b4d9f0222acc",
+    "atlas": "",
+    "rect": [
+      2,
+      0,
+      1778,
+      1260
+    ],
+    "offset": [
+      1,
+      0.5
+    ],
+    "originalSize": [
+      1780,
+      1261
+    ],
+    "rotated": 0
+  }
+}

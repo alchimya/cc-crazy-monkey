@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stop_bonus",
+    "texture": "693d5f28-308c-4b6c-94a2-554c88237428",
+    "atlas": "",
+    "rect": [
+      5,
+      8,
+      252,
+      246
+    ],
+    "offset": [
+      1,
+      -1
+    ],
+    "originalSize": [
+      260,
+      260
+    ],
+    "rotated": 0
+  }
+}

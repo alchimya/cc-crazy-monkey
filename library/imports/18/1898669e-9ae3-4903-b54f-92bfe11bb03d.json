@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stop_monkey",
+    "texture": "2ea7862c-51fe-4bd0-873d-99ded5bb2ab5",
+    "atlas": "",
+    "rect": [
+      10,
+      14,
+      244,
+      244
+    ],
+    "offset": [
+      2,
+      -6
+    ],
+    "originalSize": [
+      260,
+      260
+    ],
+    "rotated": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "credit",
+    "texture": "2a639600-5fdb-4459-a7a1-e18e7ed34e03",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      411,
+      165
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      411,
+      165
+    ],
+    "rotated": 0
+  }
+}

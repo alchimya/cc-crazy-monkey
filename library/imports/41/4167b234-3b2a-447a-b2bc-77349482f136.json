@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "auto_spin_down",
+    "texture": "f5089497-d890-41a9-a5ed-2145619ad0e8",
+    "atlas": "",
+    "rect": [
+      25,
+      18,
+      445,
+      319
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      495,
+      355
+    ],
+    "rotated": 0
+  }
+}

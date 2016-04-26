@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bet_max_down",
+    "texture": "329129db-9331-4363-b357-b569e28f2205",
+    "atlas": "",
+    "rect": [
+      0,
+      6,
+      354,
+      155
+    ],
+    "offset": [
+      -3,
+      -3
+    ],
+    "originalSize": [
+      360,
+      161
+    ],
+    "rotated": 0
+  }
+}

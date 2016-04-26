@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stop_banana",
+    "texture": "f475ab61-b601-4af8-b056-6ad4a75ae385",
+    "atlas": "",
+    "rect": [
+      14,
+      14,
+      240,
+      244
+    ],
+    "offset": [
+      4,
+      -6
+    ],
+    "originalSize": [
+      260,
+      260
+    ],
+    "rotated": 0
+  }
+}

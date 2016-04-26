@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stop_lion",
+    "texture": "dd5e492e-bd9d-4ff1-8838-cdef43d4745a",
+    "atlas": "",
+    "rect": [
+      13,
+      14,
+      241,
+      244
+    ],
+    "offset": [
+      3.5,
+      -6
+    ],
+    "originalSize": [
+      260,
+      260
+    ],
+    "rotated": 0
+  }
+}

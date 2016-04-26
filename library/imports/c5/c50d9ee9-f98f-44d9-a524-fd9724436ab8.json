@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bet_one",
+    "texture": "9546f5a9-ecf5-4943-9cc5-200eb55743e4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      360,
+      161
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      360,
+      161
+    ],
+    "rotated": 0
+  }
+}
