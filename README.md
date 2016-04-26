@@ -101,8 +101,34 @@ Stop       Reel 1 	  | Reel 2      | Reel 3      | Reel 4      | Reel 5
 32		 |	MAN		  | MONKEY	    | LION		  | KAKADU	    | KAKADU	
 <br/>
 
+<b>Paytable Bet Max</b>
 
+SYMBOL		  | TOTAL SYMBOLS		 | 5/R 	 | 3/R 	 | 2/R
+------------|------------------|-------|-------|------
+BONUS		    | 5			   	       | 2000  | 1000  |800
+BANANA		  | 17			         | 300   | 200   |100
+BEGAMOT		  | 19			         | 200   | 100   |50
+COCODRILE	  | 19 			         | 200   | 100   |50
+COCKTAIL	  | 19 			         | 200   | 100   |5
+KAKADU		  | 20 			         | 100   | 75	   |5
+MAN			    | 20 			         | 100   | 75	   |5
+MONKEY		  | 20 			         | 100   | 75	   |2
+LION		    | 21			         | 50	   | 25	   |2
 
+<br/>
+<b>Paytable Bet One</b>
+
+SYMBOL		  | TOTAL SYMBOLS		 | 5/R 	 | 3/R 	 | 2/R
+------------|------------------|-------|-------|------
+BONUS		| 5			   	   | 200   | 100   | 50
+BANANA		| 17			   | 100   | 20    | 10
+BEGAMOT		| 19			   | 50    | 10    | 5
+COCODRILE	| 19 			   | 50    | 10    | 5
+COCKTAIL	| 19 			   | 20    | 10    | 2
+KAKADU		| 20 			   | 10    | 5	   | 2
+MAN			| 20 			   | 10    | 5	   | 2
+MONKEY		| 20 			   | 10    | 5	   | 1
+LION		| 21			   | 5	   | 2	   | 1
 
 # The Cocos Creator Project
 
