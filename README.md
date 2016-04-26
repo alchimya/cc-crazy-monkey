@@ -37,7 +37,7 @@ Here the symbols used to make the reels:
 
 <b>Specs</b>
 
-                            |
+Description                 | Value
 ----------------------------|--------------
 Number of reels       		  | 5            
 Number of Symbols     		  | 9
