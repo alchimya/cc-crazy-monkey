@@ -1,21 +1,20 @@
 # cc-crazy-monkey
-A Single Pya Line Slot Machine made with (love and...) Cocos Creator :)
-
+A Single Pay Line Slot Machine made with (love and...) Cocos Creator :)
 
 # What is this?
 Crazy Monkey is a 5-reel single-line slot machine developed with the new (amazing) game development tool Cocos Creator.
+The project has been made starting with the first public beta version (0.71) and at the moment of this writing I'm using the 1.0.1
 
 ![ScreenShot](https://raw.github.com/alchimya/cc-crazy-monkey/master/screenshots/cc-crazy-monkey.png)
 
 <br/>
 Cocos Creator, released as public beta in march 2016, is a complete package of game development tools and workflow, including a game engine (based on Cocos2d-x), resource management, scene editing, game preview, debug and publish one project to multiple platforms.
 In this project/tutorial, I'm going to show some useful Cocos Creator features and at the same time I'll speak about some basic slot machines concept.
-For further informations about Cocos Craetor visit http://cocos2d-x.org
-
+For further informations about Cocos Creator visit http://cocos2d-x.org
 
 # The slot machine
 The slot machine discussed here, is a 5-reel single-line slot machine where each reel, made with a set of 9 symbols, has 32 stops.
-Here the symbols used to make the reels
+Here the symbols used to make the reels:
 
 1) BANANA
 <br/>
@@ -134,8 +133,6 @@ LION		| 21			   | 5	   | 2	   | 1
 
 <b>The Canvas</b>
 <br/>
-The project has been made starting with the first public beta version (0.71) and at the moment of this writing I'm using the 1.0.1
-<br/>
 The main Canvas tree structure, can be described as follow:
 <br/>
 -->Canvas
@@ -148,15 +145,13 @@ The main Canvas tree structure, can be described as follow:
 <br/>
 ------>Bottom layer
 <br/>
-
 ![ScreenShot](https://raw.github.com/alchimya/cc-crazy-monkey/master/screenshots/layers.png)
-
 where:
-- Background layer: is a sprite with a Widget component that allowos to autosize the background changing device and resolution
+- Background layer: is a sprite with a Widget component that allowos to autosize the background changing device and resolution.
 - Top layer: is a node that contains all the UI components placed ont the top of the game layer. Here mainly there are the score UI components.
-<>br/The layout of this node is driven by a widget with a Top constraint.
+<br/>The layout of this node is driven by a widget with a Top constraint.
 - Bottom layer: is a node that contains all the UI components placed below the game layer. Here mainly there are the game buttons controls.
-<>br/The layout of this node is driven by a widget with constraints on the top, bottom,right and left.
+<br/>The layout of this node is driven by a widget with constraints on the top, bottom,right and left.
 - Game layer: this node can be described as the reels container.
 <br/> It contains a tree node structure as follow:
 <br/>
@@ -173,7 +168,7 @@ where:
 ------>Reel 5
 
 <br/>
-To "crop" the reels layer with a proper visible area, has been used a Mask component.
+To "crop" the reels layer with a proper visible area, there has been used a Mask component.
 
 <b>Assets</b>
 <br/>
@@ -194,15 +189,15 @@ The assets branch, can be described as follow
 
 <br/>
 where:
-- scripts: contains all the Javascript that define the game logic.
-- prefabs: contains all the prefabs components. Her you can find the stops (simbols) reel prefab.
-- textures: contains all texture used with the sprites and prefabs
+- scripts: contains all the Javascript classes that define the game logic.
+- prefabs: contains all the prefabs components. Here you can find the stops (symbols) reel prefab.
+- textures: contains all the textures used with sprites and prefabs
 
 <b>Scripting</b>
 <br/>
 <b>1.1 Reel</b>
 <br/>
-A reel is a class taht extends a cc.Component object.
+A reel is a class that extends a cc.Component object.
 <br/>
 It defines the following public properties:
 
@@ -213,34 +208,36 @@ prngMinRange                  | cc.Integer                  | allows to define t
 prngMaxRange                  | cc.Integer                  | allows to define the max value for the PRNG
 
 <br/>
-The layout logic of the (32) symbols is quite simple to understand.
+The layout logic of the (32) symbols is quite easy to understand.
 <br>
-Looping throughout the stops array the y value of each node will be decreased of a padding value and the stop node hegiht.
+Looping throughout the stops array the Y value of each node will be decreased of a padding value and the stop node height.
+<br/>
 Bear in mind that each anchor point of a stop node has been defined as (0,0).
-Besides note that the starting y has been calculated using the reel node height.
-
+<br/>
+Moreover note that the starting y has been calculated using the reel node height.
 <br/>
 ![ScreenShot](https://raw.github.com/alchimya/cc-crazy-monkey/master/screenshots/stops_layout.png)
 
 <b>1.2 Stops Reel Motion</b>
 <br/>
-The reel motio is quite esay to understand.
+The reel motion is quite esay to understand.
 <br/>
 Overriding the update() method (cc.Component superclass), each Y node (each item of the stops array property) is increased of an arbitrary value that can be expressed as:
 <br/>
-StepY=StopHeight/N
+<b>StepY=StopHeight/N</b>
 <br/>
-It's quite easy to understand that if N->0 then StpeY->∞, so for N->0 the reel speed will increase.
+It's quite easy to understand that if <b>N->0</b> then <b>StpeY->∞</b>, so for <b>N->0</b> the reel speed will increase.
 <br/>
-When a stop Y is greater or equal than the node (reel) height, it will moved after the first item:
+When a stop Y is greater or equal than the node (reel) height, it will moved after the last (tail) item:
 <br/>
 ![ScreenShot](https://raw.github.com/alchimya/cc-crazy-monkey/master/screenshots/stops_motion.png)
 
 <b>1.3 Reel (P)RNG</b>
 <br/>
-The winning logic of a reel object, is driven by a Pseudo Random Number Generator (PRNG) see prng.js assets script.
+The winning logic of a reel object, is driven by a <b>Pseudo Random Number Generator (PRNG)</b> see prng.js assets script.
 <br/>
-On each reel it is possible to set the range, as min and max value, where the random number will be generated.
+On each reel it is possible to set the range, as min and max value, within the random number will be generated.
+<br/>
 Here the values used for the five reels to generate the winning index.
 
   reel   |     min        |   max    
@@ -253,11 +250,11 @@ Here the values used for the five reels to generate the winning index.
 
 Note that the number of how many times the reel will rool, is generated randomly too.
 
-<b>1.4 How the rell winning stop does it work?</b>
-This is a slot machine with a single pay line placed ate the center of the reels container.
+<b>1.4 How the reel winning stop does it work?</b>
+This is a slot machine with a single pay line placed at the center of the reels container.
 <br/>
-When the reel is rolling its last round, when the Y of the winning stop is equal or greater of the pay line Y, the rolling will be stopped.
+When the reel is rolling its last round, when the Y of the winning stop is greater or equal of the pay line Y, the rolling will be stopped.
 <br/>
-To place the center of the winning stop exactly on the winning line each reel stop Y will be recalculated subtracting an amount equale to:
+To place the center of the winning stop exactly on the winning line, each reel stop Y will be recalculated subtracting an amount equale to:
 <br/>
 <b>deltaY=winningStop.y-payLineY+winningStop.height/2</b>
