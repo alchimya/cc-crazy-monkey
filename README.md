@@ -13,7 +13,7 @@ In this project/tutorial, I'm going to show some useful Cocos Creator features a
 For further informations about Cocos Creator visit http://cocos2d-x.org
 
 # The slot machine
-The slot machine discussed here, is a 5-reel single-line slot machine where each reel, made with a set of 9 symbols, has 32 stops.
+The slot machine discussed here, is a, cross-platform desktop and mobile, 5-reel single-line slot machine where each reel, made with a set of 9 symbols, has 32 stops.
 Here the symbols used to make the reels:
 
 1) BANANA
