@@ -60,44 +60,44 @@ KAKADU       |	4	    |	3	     | 4	    | 4      | 5      | 20
 LION         |	4	    |	5	     | 5	    | 3      | 4      | 21
 MAN          |	4	    |	4	     | 4	    | 4      | 4      | 20
 MONKEY       |	4	    |	4	     | 5	    | 4      | 3      | 20
-<b>TOTAL</b>		      | 32	  | 32     | 32     | 32     | 32     | 160
+<b>TOTAL</b> | 32	    | 32     | 32     | 32     | 32     | 160
 
 <b>Reel Strips</b>
 
-Stop       Reel 1 	  | Reel 2      | Reel 3      | Reel 4      | Reel 5    
+Stop     |Reel 1 	  | Reel 2      | Reel 3      | Reel 4      | Reel 5    
 ---------|------------|-------------|-------------|-------------|-----------
-1		 |	LION      | KAKADU      | MONKEY	  | MAN		    | COCODRILE
-2		 |	MONKEY	  | LION	    | COCODRILE	  | MONKEY	    | COCKTAIL
-3		 |	COCODRILE | MAN		    | KAKADU	  | BONUS	    | BEGAMOT
-4		 |	BANANA	  | COCKTAIL    | COCKTAIL	  | MAN		    | COCODRILE
-5		 |	KAKADU	  | MONKEY	    | BEGAMOT	  | COCODRILE   | LION
-6		 |	BANANA	  | MAN		    | LION		  | COCKTAIL	| KAKADU
-7		 |	BEGAMOT	  | COCKTAIL    | MAN		  | MONKEY	    | MONKEY
-8	 	 |	COCKTAIL  | LION	    | BANANA	  | COCKTAIL	| COCODRILE
-9		 |	COCODRILE | BEGAMOT	    | KAKADU	  | LION		| BEGAMOT
-10		 |	MAN		  | COCKTAIL    | MAN		  | COCKTAIL	| KAKADU
-11		 |	LION	  | COCODRILE   | LION		  | KAKADU	    | MAN
-12		 |	BONUS	  | BANANA	    | BEGAMOT	  | BEGAMOT	    | BANANA
-13		 |	KAKADU	  | BEGAMOT	    | MONKEY	  | MAN		    | LION
-14		 |	MONKEY	  | LION	    | COCKTAIL	  | BANANA	    | COCODRILE
-15		 |	COCODRILE | MONKEY	    | KAKADU	  | COCODRILE   | MAN
-16		 |	MAN		  | BANANA	    | BANANA	  | BANANA	    | BONUS
-17		 |	COCKTAIL  | COCODRILE   | LION		  | KAKADU	    | KAKADU
-18		 |	MONKEY	  | KAKADU	    | COCODRILE	  | BEGAMOT	    | MONKEY
-19		 |	BEGAMOT	  | COCKTAIL    | BANANA	  | COCODRILE   | COCODRILE		
-20		 |	LION	  | BANANA	    | MONKEY	  | MONKEY	    | MAN
-21		 |	BANANA	  | MAN		    | BEGAMOT	  | BANANA	    | COCKTAIL
-22		 |	BEGAMOT	  | BONUS	    | KAKADU	  | KAKADU	    | BEGAMOT
-23		 |	KAKADU	  | LION	    | MAN		  | COCKTAIL	| LION
-24		 |	BANANA	  | MONKEY	    | COCKTAIL	  | MONKEY	    | KAKADU
-25		 |	MAN		  | COCODRILE   | MONKEY	  | BEGAMOT	    | BANANA
-26		 |	COCKTAIL  | KAKADU	    | LION		  | LION		| BEGAMOT
-27		 |	LION	  | BEGAMOT	    | COCODRILE	  | BEGAMOT	    | MONKEY
-28		 |	BEGAMOT	  | BANANA	    | BONUS		  | MAN		    | BANANA
-29		 |	COCODRILE | COCKTAIL    | MONKEY	  | COCODRILE   | MAN
-30		 |	MONKEY	  | MAN		    | COCKTAIL	  | LION		| LION
-31		 |	KAKADU	  | LION	    | MAN		  | BEGAMOT	    | COCKTAIL
-32		 |	MAN		  | MONKEY	    | LION		  | KAKADU	    | KAKADU	
+1		     |	LION      | KAKADU      | MONKEY	    | MAN		      | COCODRILE
+2		     |	MONKEY	  | LION	      | COCODRILE	  | MONKEY	    | COCKTAIL
+3		     |	COCODRILE | MAN		      | KAKADU	    | BONUS	      | BEGEMOT
+4		     |	BANANA	  | COCKTAIL    | COCKTAIL	  | MAN		      | COCODRILE
+5		     |	KAKADU	  | MONKEY	    | BEGEMOT	    | COCODRILE   | LION
+6		     |	BANANA	  | MAN		      | LION		    | COCKTAIL	  | KAKADU
+7		     |	BEGEMOT	  | COCKTAIL    | MAN		      | MONKEY	    | MONKEY
+8	 	     |	COCKTAIL  | LION	      | BANANA	    | COCKTAIL	  | COCODRILE
+9		     |	COCODRILE | BEGEMOT	    | KAKADU	    | LION		    | BEGEMOT
+10		   |	MAN		    | COCKTAIL    | MAN		      | COCKTAIL	  | KAKADU
+11		   |	LION	    | COCODRILE   | LION		    | KAKADU	    | MAN
+12		   |	BONUS	    | BANANA	    | BEGEMOT	    | BEGEMOT	    | BANANA
+13		   |	KAKADU	  | BEGEMOT	    | MONKEY	    | MAN		      | LION
+14		   |	MONKEY	  | LION	      | COCKTAIL	  | BANANA	    | COCODRILE
+15		   |	COCODRILE | MONKEY	    | KAKADU	    | COCODRILE   | MAN
+16		   |	MAN		    | BANANA	    | BANANA	    | BANANA	    | BONUS
+17		   |	COCKTAIL  | COCODRILE   | LION		    | KAKADU	    | KAKADU
+18		   |	MONKEY	  | KAKADU	    | COCODRILE	  | BEGEMOT	    | MONKEY
+19		   |	BEGEMOT	  | COCKTAIL    | BANANA	    | COCODRILE   | COCODRILE		
+20		   |	LION	    | BANANA	    | MONKEY	    | MONKEY	    | MAN
+21		   |	BANANA	  | MAN		      | BEGEMOT	    | BANANA	    | COCKTAIL
+22		   |	BEGEMOT	  | BONUS	      | KAKADU	    | KAKADU	    | BEGEMOT
+23		   |	KAKADU	  | LION	      | MAN		      | COCKTAIL	  | LION
+24		   |	BANANA	  | MONKEY	    | COCKTAIL	  | MONKEY	    | KAKADU
+25		   |	MAN		    | COCODRILE   | MONKEY	    | BEGEMOT	    | BANANA
+26		   |	COCKTAIL  | KAKADU	    | LION		    | LION		    | BEGEMOT
+27		   |	LION	    | BEGEMOT	    | COCODRILE	  | BEGEMOT	    | MONKEY
+28		   |	BEGEMOT	  | BANANA	    | BONUS		    | MAN		      | BANANA
+29		   |	COCODRILE | COCKTAIL    | MONKEY	    | COCODRILE   | MAN
+30		   |	MONKEY	  | MAN		      | COCKTAIL	  | LION		    | LION
+31		   |	KAKADU	  | LION	      | MAN		      | BEGEMOT	    | COCKTAIL
+32		   |	MAN		    | MONKEY	    | LION		    | KAKADU	    | KAKADU	
 <br/>
 
 <b>Paytable Bet Max</b>
@@ -106,7 +106,7 @@ SYMBOL		  | TOTAL SYMBOLS		 | 5/R 	 | 3/R 	 | 2/R
 ------------|------------------|-------|-------|------
 BONUS		    | 5			   	       | 2000  | 1000  |800
 BANANA		  | 17			         | 300   | 200   |100
-BEGAMOT		  | 19			         | 200   | 100   |50
+BEGEMOT		  | 19			         | 200   | 100   |50
 COCODRILE	  | 19 			         | 200   | 100   |50
 COCKTAIL	  | 19 			         | 200   | 100   |5
 KAKADU		  | 20 			         | 100   | 75	   |5
@@ -121,7 +121,7 @@ SYMBOL		  | TOTAL SYMBOLS		 | 5/R 	 | 3/R 	 | 2/R
 ------------|------------------|-------|-------|------
 BONUS		| 5			   	   | 200   | 100   | 50
 BANANA		| 17			   | 100   | 20    | 10
-BEGAMOT		| 19			   | 50    | 10    | 5
+BEGEMOT		| 19			   | 50    | 10    | 5
 COCODRILE	| 19 			   | 50    | 10    | 5
 COCKTAIL	| 19 			   | 20    | 10    | 2
 KAKADU		| 20 			   | 10    | 5	   | 2
