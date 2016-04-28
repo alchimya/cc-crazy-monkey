@@ -1,5 +1,5 @@
 # cc-crazy-monkey
-A Single Pay Line Slot Machine made with (love and...) Cocos Creator :)
+A Single Payline Slot Machine made with Cocos Creator...and love :)
 
 # What is this?
 Crazy Monkey is a 5-reel single-line slot machine developed with the new (amazing) game development tool Cocos Creator.
