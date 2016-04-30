@@ -28,10 +28,10 @@ var UserDefault = cc.Class({
         if (!data) {
             data = defaultValue;
         }
-        return data;
+        return data ? parseInt(data) : 0;
     },
     setCurrentCredit: function setCurrentCredit(value) {
-        this.setItem.getItem(UserDefaultKeys.CURRENT_CREDIT, value);
+        this.localStorage.setItem(UserDefaultKeys.CURRENT_CREDIT, value);
     }
 });
 

@@ -6,6 +6,7 @@ cc._RFpush(module, '17a107hOA1DjJdGNDmkBd3y', 'game');
 var Reel = require('reel'),
     OnOffButton = require('on-off-button'),
     AudioManager = require('audio-manager'),
+    UserDefault = require('user-default'),
     PayTableTags = require('paytable-tags')();
 cc.Class({
     'extends': cc.Component,
@@ -208,9 +209,20 @@ cc.Class({
                 if (that.isRollingCompleted) {
                     //unlocks all buttons
                     that.setButtonsLocked(false);
+                    //update user default current credit
+                    UserDefault.instance.setCurrentCredit(that.currentCredit);
                 }
             }
         });
+    },
+    start: function start() {
+        //read all the user default
+        this.loadUserDefault();
+    },
+    loadUserDefault: function loadUserDefault() {
+        //current credit
+        this.currentCredit = UserDefault.instance.getCurrentCredit(this.currentCredit);
+        this.creditLabel.string = this.currentCredit.toString();
     },
     spin: function spin() {
 
@@ -257,7 +269,6 @@ cc.Class({
         }
         return lineSymbolsTags;
     },
-    //TODO chnage name of this function
     showWinningSymbolsAndPay: function showWinningSymbolsAndPay(paytableRet) {
 
         var stopNode,
