@@ -191,9 +191,10 @@ cc.Class({
                     that.showWinningSymbolsAndPay(paytableRet);
                 } else {
                     //LOST update credit
-                    that.currentCredit -= that.currentBetValue;
+                    that.updateCurrenCredit(that.currentCredit - that.currentBetValue);
+                    // that.currentCredit-=that.currentBetValue;
                     that.betInfoLabel.string = (-that.currentBetValue).toString();
-                    that.creditLabel.string = that.currentCredit.toString();
+                    // that.creditLabel.string=that.currentCredit.toString();
 
                     if (!that.isAutoSpin) {
                         //spin completed
@@ -221,8 +222,10 @@ cc.Class({
     },
     loadUserDefault: function loadUserDefault() {
         //current credit
-        this.currentCredit = UserDefault.instance.getCurrentCredit(this.currentCredit);
-        this.creditLabel.string = this.currentCredit.toString();
+        this.updateCurrenCredit(UserDefault.instance.getCurrentCredit(this.currentCredit));
+        this.updateCurrenCredit(1);
+        //this.currentCredit=UserDefault.instance.getCurrentCredit(this.currentCredit);
+        //this.creditLabel.string=this.currentCredit.toString();
     },
     spin: function spin() {
 
@@ -288,9 +291,19 @@ cc.Class({
         }
 
         //PAY update credit
-        this.currentCredit += winningAmount;
+        this.updateCurrenCredit(this.currentCredit + winningAmount);
+        //this.currentCredit+=winningAmount;
         this.betInfoLabel.string = winningAmount.toString();
+        //this.creditLabel.string=this.currentCredit.toString();
+    },
+    updateCurrenCredit: function updateCurrenCredit(value) {
+        this.currentCredit = value;
         this.creditLabel.string = this.currentCredit.toString();
+        if (parseInt(this.currentCredit) <= 0) {
+            AudioManager.instance.playGameOver();
+            //TODO reset credit automatically
+            this.updateCurrenCredit(100);
+        }
     }
 
 });
