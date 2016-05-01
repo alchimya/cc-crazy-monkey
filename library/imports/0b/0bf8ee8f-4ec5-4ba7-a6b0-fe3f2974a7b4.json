@@ -87,6 +87,9 @@
     },
     "reelStop": {
       "__uuid__": "ad33fd13-c9b4-4ecf-b063-f9e5382625c3"
+    },
+    "gameOver": {
+      "__uuid__": "1eabfbb2-6ee7-45a1-9bd5-b00f8b57451a"
     }
   },
   {
@@ -95,6 +98,6 @@
       "__id__": 1
     },
     "asset": null,
-    "fileId": "1ae62W6rvFO27Ed6xJsZY6+"
+    "fileId": "33694LXs1FEmqIPleyjZor8"
   }
 ]
