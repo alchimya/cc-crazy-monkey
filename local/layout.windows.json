@@ -74,12 +74,6 @@
         "row": true,
         "type": "dock"
       }
-    },
-    "worker": {
-      "x": 520,
-      "y": 278,
-      "width": 400,
-      "height": 300
     }
   }
 }
