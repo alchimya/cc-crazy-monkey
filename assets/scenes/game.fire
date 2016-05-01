@@ -84,6 +84,9 @@
       },
       {
         "__id__": 64
+      },
+      {
+        "__id__": 67
       }
     ],
     "_rotationX": 0,
@@ -106,7 +109,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 67
+        "__id__": 70
       }
     ],
     "_prefab": null
@@ -178,7 +181,6 @@
       "__uuid__": "6cf26f03-ad87-4411-b57e-ead1c6145433"
     },
     "_type": 0,
-    "_useOriginalSize": true,
     "_sizeMode": 1,
     "_fillType": 0,
     "_fillCenter": {
@@ -343,7 +345,6 @@
       "__uuid__": "74eb07b3-b037-4d0a-825c-f7e03cfc0437"
     },
     "_type": 0,
-    "_useOriginalSize": true,
     "_sizeMode": 1,
     "_fillType": 0,
     "_fillCenter": {
@@ -608,6 +609,8 @@
         "__uuid__": "2da58b11-0c6f-4bcd-99a9-ed5ae5a97818"
       }
     ],
+    "prngMinRange": 1,
+    "prngMaxRange": 1000000000,
     "stopNodes": [],
     "tailNode": null,
     "visibleStops": 3,
@@ -616,11 +619,9 @@
     "stepY": 0,
     "rollingCount": 0,
     "winnerIndex": 0,
-    "winnerLineY": 0,
     "stopAfterRollingCount": 0,
-    "isRollingCompleted": false,
-    "prngMinRange": 1,
-    "prngMaxRange": 1000000000
+    "winnerLineY": 0,
+    "isRollingCompleted": false
   },
   {
     "__type__": "cc.Node",
@@ -780,6 +781,8 @@
         "__uuid__": "54f186dc-6e97-4892-8084-bb60ac9394da"
       }
     ],
+    "prngMinRange": 1000000001,
+    "prngMaxRange": 2000000000,
     "stopNodes": [],
     "tailNode": [],
     "visibleStops": 3,
@@ -788,11 +791,9 @@
     "stepY": 0,
     "rollingCount": 0,
     "winnerIndex": 0,
-    "winnerLineY": 0,
     "stopAfterRollingCount": 0,
-    "isRollingCompleted": false,
-    "prngMinRange": 1000000001,
-    "prngMaxRange": 2000000000
+    "winnerLineY": 0,
+    "isRollingCompleted": false
   },
   {
     "__type__": "cc.Node",
@@ -952,6 +953,8 @@
         "__uuid__": "d97fab14-dbbc-4abd-b1ed-5b3561925503"
       }
     ],
+    "prngMinRange": 2000000001,
+    "prngMaxRange": 3000000000,
     "stopNodes": [],
     "tailNode": [],
     "visibleStops": 3,
@@ -960,11 +963,9 @@
     "stepY": 0,
     "rollingCount": 0,
     "winnerIndex": 0,
-    "winnerLineY": 0,
     "stopAfterRollingCount": 0,
-    "isRollingCompleted": false,
-    "prngMinRange": 2000000001,
-    "prngMaxRange": 3000000000
+    "winnerLineY": 0,
+    "isRollingCompleted": false
   },
   {
     "__type__": "cc.Node",
@@ -1124,6 +1125,8 @@
         "__uuid__": "18e863f7-90e4-4974-bc41-6d314b51d42a"
       }
     ],
+    "prngMinRange": 3000000001,
+    "prngMaxRange": 4000000000,
     "stopNodes": [],
     "tailNode": [],
     "visibleStops": 3,
@@ -1132,11 +1135,9 @@
     "stepY": 0,
     "rollingCount": 0,
     "winnerIndex": 0,
-    "winnerLineY": 0,
     "stopAfterRollingCount": 0,
-    "isRollingCompleted": false,
-    "prngMinRange": 3000000001,
-    "prngMaxRange": 4000000000
+    "winnerLineY": 0,
+    "isRollingCompleted": false
   },
   {
     "__type__": "cc.Node",
@@ -1296,6 +1297,8 @@
         "__uuid__": "18e863f7-90e4-4974-bc41-6d314b51d42a"
       }
     ],
+    "prngMinRange": 4000000001,
+    "prngMaxRange": 5000000000,
     "stopNodes": [],
     "tailNode": [],
     "visibleStops": 3,
@@ -1304,11 +1307,9 @@
     "stepY": 0,
     "rollingCount": 0,
     "winnerIndex": 0,
-    "winnerLineY": 0,
     "stopAfterRollingCount": 0,
-    "isRollingCompleted": false,
-    "prngMinRange": 4000000001,
-    "prngMaxRange": 5000000000
+    "winnerLineY": 0,
+    "isRollingCompleted": false
   },
   {
     "__type__": "cc.Node",
@@ -1374,7 +1375,6 @@
       "__uuid__": "6461adcb-dc42-46dd-ac63-7c3bc3921bb4"
     },
     "_type": 0,
-    "_useOriginalSize": true,
     "_sizeMode": 1,
     "_fillType": 0,
     "_fillCenter": {
@@ -1426,8 +1426,6 @@
     "currentCredit": 100,
     "betOneValue": 1,
     "betMaxValue": 5,
-    "rollingCompletedCount": 0,
-    "isRollingCompleted": true,
     "spinButton": {
       "__id__": 25
     },
@@ -1443,15 +1441,17 @@
     "totalBetLabel": {
       "__id__": 49
     },
-    "totalBetValue": 0,
-    "currentBetValue": 0,
-    "currentPayTableTag": 0,
     "creditLabel": {
       "__id__": 55
     },
     "betInfoLabel": {
       "__id__": 42
     },
+    "rollingCompletedCount": 0,
+    "isRollingCompleted": true,
+    "totalBetValue": 0,
+    "currentBetValue": 0,
+    "currentPayTableTag": 0,
     "isAutoSpin": false,
     "autoSpinTimer": null
   },
@@ -1669,7 +1669,6 @@
       "__uuid__": "eca05e18-02c3-4031-9876-d41b5992d5fa"
     },
     "_type": 0,
-    "_useOriginalSize": true,
     "_sizeMode": 1,
     "_fillType": 0,
     "_fillCenter": {
@@ -1793,7 +1792,6 @@
       "__uuid__": "88dc9871-197a-4f62-a8a0-52c7c8a9662c"
     },
     "_type": 0,
-    "_useOriginalSize": true,
     "_sizeMode": 1,
     "_fillType": 0,
     "_fillCenter": {
@@ -1917,7 +1915,6 @@
       "__uuid__": "c50d9ee9-f98f-44d9-a524-fd9724436ab8"
     },
     "_type": 0,
-    "_useOriginalSize": true,
     "_sizeMode": 1,
     "_fillType": 0,
     "_fillCenter": {
@@ -2136,7 +2133,6 @@
       "__uuid__": "d90d1f2a-1e4b-45ea-87f2-39e1fdad473c"
     },
     "_type": 0,
-    "_useOriginalSize": true,
     "_sizeMode": 1,
     "_fillType": 0,
     "_fillCenter": {
@@ -2205,7 +2201,6 @@
       "__uuid__": "485f9def-db97-4c1a-92ae-74bd8b0f1827"
     },
     "_type": 0,
-    "_useOriginalSize": true,
     "_sizeMode": 1,
     "_fillType": 0,
     "_fillCenter": {
@@ -2597,7 +2592,6 @@
       "__uuid__": "888f0d9f-adcd-41e9-acfc-4f97d1f04ede"
     },
     "_type": 0,
-    "_useOriginalSize": false,
     "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
@@ -2666,7 +2660,6 @@
       "__uuid__": "a1fa476e-a8a4-40ff-8996-f6e4d310e8eb"
     },
     "_type": 0,
-    "_useOriginalSize": false,
     "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
@@ -2734,6 +2727,78 @@
   },
   {
     "__type__": "cc.Node",
+    "_name": "UserDefault",
+    "_objFlags": 0,
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_cascadeOpacityEnabled": true,
+    "_parent": {
+      "__id__": 2
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_children": [],
+    "_rotationX": 0,
+    "_rotationY": 0,
+    "_scaleX": 1,
+    "_scaleY": 1,
+    "_position": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_localZOrder": 0,
+    "_globalZOrder": 0,
+    "_tag": -1,
+    "_opacityModifyRGB": false,
+    "_reorderChildDirty": false,
+    "_id": "e3943MH1m9DcrISaMNAo0iM",
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 65
+      }
+    ],
+    "_prefab": {
+      "__id__": 66
+    }
+  },
+  {
+    "__type__": "ac85aN0yDZAy5qM8en8FeDQ",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 64
+    },
+    "_enabled": true,
+    "localStorage": null
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 64
+    },
+    "asset": null,
+    "fileId": "87243rXGkhOToyx3Yr8Bn3q"
+  },
+  {
+    "__type__": "cc.Node",
     "_name": "AudioManager",
     "_objFlags": 0,
     "_opacity": 255,
@@ -2775,15 +2840,15 @@
     "_tag": -1,
     "_opacityModifyRGB": false,
     "_reorderChildDirty": false,
-    "_id": "7eed8r0WbxOd5vRW6msxW8v",
+    "_id": "550facqx9FGlpO/4l338f7L",
     "_active": true,
     "_components": [
       {
-        "__id__": 65
+        "__id__": 68
       }
     ],
     "_prefab": {
-      "__id__": 66
+      "__id__": 69
     }
   },
   {
@@ -2791,7 +2856,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 64
+      "__id__": 67
     },
     "_enabled": true,
     "coinsWin": {
@@ -2819,12 +2884,12 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 64
+      "__id__": 67
     },
     "asset": {
       "__uuid__": "0bf8ee8f-4ec5-4ba7-a6b0-fe3f2974a7b4"
     },
-    "fileId": "1ae62W6rvFO27Ed6xJsZY6+"
+    "fileId": "33694LXs1FEmqIPleyjZor8"
   },
   {
     "__type__": "cc.Canvas",

@@ -2,6 +2,7 @@
 var Reel=require('reel'),
     OnOffButton=require('on-off-button'),
     AudioManager=require('audio-manager'),
+    UserDefault=require('user-default'),
     PayTableTags=require('paytable-tags')();
 cc.Class({
     extends: cc.Component,
@@ -106,7 +107,7 @@ cc.Class({
     onLoad: function () {
         
         var that = this;
-    
+        
         //sets the available credit.
         this.creditLabel.string=this.currentCredit.toString();
         //init bet info label
@@ -186,9 +187,8 @@ cc.Class({
                     that.showWinningSymbolsAndPay(paytableRet);
                 }else{
                     //LOST update credit
-                    that.currentCredit-=that.currentBetValue;
+                    that.updateCurrenCredit(that.currentCredit-that.currentBetValue);
                     that.betInfoLabel.string=(-that.currentBetValue).toString();
-                    that.creditLabel.string=that.currentCredit.toString();
                     
                     if (!that.isAutoSpin){
                         //spin completed
@@ -204,12 +204,22 @@ cc.Class({
                 if (that.isRollingCompleted){
                     //unlocks all buttons
                     that.setButtonsLocked(false);
+                    //update user default current credit
+                    UserDefault.instance.setCurrentCredit(that.currentCredit);
                 }
             }
         });
         
         
         
+    },
+    start:function(){
+        //read all the user default
+        this.loadUserDefault();
+    },
+    loadUserDefault:function(){
+        //current credit
+        this.updateCurrenCredit(UserDefault.instance.getCurrentCredit(this.currentCredit));
     },
     spin:function(){
 
@@ -256,7 +266,6 @@ cc.Class({
         }
         return lineSymbolsTags;
     },
-    //TODO chnage name of this function
     showWinningSymbolsAndPay:function(paytableRet){
        
         var stopNode,
@@ -276,10 +285,17 @@ cc.Class({
         }
 
         //PAY update credit
-        this.currentCredit+=winningAmount;
+        this.updateCurrenCredit(this.currentCredit+winningAmount);
         this.betInfoLabel.string=winningAmount.toString();
+    },
+    updateCurrenCredit:function(value){
+        this.currentCredit=value;
         this.creditLabel.string=this.currentCredit.toString();
-        
+        if (parseInt(this.currentCredit)<=0){
+            AudioManager.instance.playGameOver();
+            //TODO reset credit automatically
+            this.updateCurrenCredit(100);
+        }
     }
 
 });

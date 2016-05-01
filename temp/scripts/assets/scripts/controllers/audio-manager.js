@@ -36,6 +36,10 @@ var AudioManager = cc.Class({
         reelStop: {
             "default": null,
             url: cc.AudioClip
+        },
+        gameOver: {
+            "default": null,
+            url: cc.AudioClip
         }
     },
     //defines the static (singleton) instance
@@ -63,6 +67,9 @@ var AudioManager = cc.Class({
     },
     playReelStop: function playReelStop() {
         cc.audioEngine.playEffect(this.reelStop, false);
+    },
+    playGameOver: function playGameOver() {
+        cc.audioEngine.playEffect(this.gameOver, false);
     },
     playSound: function playSound(audioClip) {
         //audio play
