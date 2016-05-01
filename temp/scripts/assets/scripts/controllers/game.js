@@ -192,9 +192,7 @@ cc.Class({
                 } else {
                     //LOST update credit
                     that.updateCurrenCredit(that.currentCredit - that.currentBetValue);
-                    // that.currentCredit-=that.currentBetValue;
                     that.betInfoLabel.string = (-that.currentBetValue).toString();
-                    // that.creditLabel.string=that.currentCredit.toString();
 
                     if (!that.isAutoSpin) {
                         //spin completed
@@ -223,9 +221,6 @@ cc.Class({
     loadUserDefault: function loadUserDefault() {
         //current credit
         this.updateCurrenCredit(UserDefault.instance.getCurrentCredit(this.currentCredit));
-        this.updateCurrenCredit(1);
-        //this.currentCredit=UserDefault.instance.getCurrentCredit(this.currentCredit);
-        //this.creditLabel.string=this.currentCredit.toString();
     },
     spin: function spin() {
 
@@ -292,9 +287,7 @@ cc.Class({
 
         //PAY update credit
         this.updateCurrenCredit(this.currentCredit + winningAmount);
-        //this.currentCredit+=winningAmount;
         this.betInfoLabel.string = winningAmount.toString();
-        //this.creditLabel.string=this.currentCredit.toString();
     },
     updateCurrenCredit: function updateCurrenCredit(value) {
         this.currentCredit = value;
