@@ -1,2 +1,5 @@
 build
 /screenshots/*.psd
+/library/bundle.project.js
+/library/uuid-to-mtime.json
+/local/assets.panel.json
