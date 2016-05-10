@@ -42,7 +42,7 @@ Description                 | Value
 Number of reels       		  | 5            
 Number of Symbols     		  | 9
 Number of stops per reel    | 32
-Slot combinations    		    | 355.554.32
+Slot combinations    		    | 33.554.432
 Wild symbols    			      | NONE
 Single Betting value    	  | 1
 Max Betting value    		    | 5
