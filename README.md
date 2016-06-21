@@ -6,7 +6,6 @@ Crazy Monkey is a 5-reel single-line slot machine developed with the new (amazin
 The project has been made starting with the first public beta version (0.71) and at the moment of this writing I'm using the 1.0.1
 
 ![ScreenShot](https://raw.github.com/alchimya/cc-crazy-monkey/master/screenshots/cc-crazy-monkey.png)
-
 <br/>
 Cocos Creator, released as public beta in march 2016, is a complete package of game development tools and workflow, including a game engine (based on Cocos2d-x), resource management, scene editing, game preview, debug and publish one project to multiple platforms.
 In this project/tutorial, I'm going to show some useful Cocos Creator features and at the same time I'll speak about some basic slot machines concept.
