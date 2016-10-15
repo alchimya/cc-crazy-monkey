@@ -1,5 +1,13 @@
+.DS_Store
 build
+<<<<<<< HEAD
 /screenshots/*.psd
 /library/bundle.project.js
 /library/uuid-to-mtime.json
 /local/assets.panel.json
+=======
+library/imports/
+temp
+local
+/screenshots/*.psd
+>>>>>>> origin/release/1.2.2
