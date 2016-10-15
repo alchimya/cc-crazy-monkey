@@ -165,11 +165,15 @@ cc.Class({
      },
      resetY:function(currentStop){
         //applies a correction to all the Y stops after that
-        // the reel has been stopped.
+        //the reel has been stopped.
         var deltaY=currentStop.y-this.winnerLineY+currentStop.height/2;
+        var lastItemWon =  (this.winnerIndex===this.stopNodes.length-1)
         for (var i=0;i<this.stopNodes.length;i++){
             var newStop=this.stopNodes[i];
             newStop.y=newStop.y-deltaY;
+            if (lastItemWon && newStop.y < this.winnerLineY && i!=this.winnerIndex) {
+                newStop.y=newStop.y+this.padding;
+            }
         }
      },
      spin:function(){
