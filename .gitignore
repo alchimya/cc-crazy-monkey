@@ -1,2 +1,6 @@
+.DS_Store
 build
+library/imports/
+temp
+local
 /screenshots/*.psd
