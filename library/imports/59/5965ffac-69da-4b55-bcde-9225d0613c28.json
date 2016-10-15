@@ -3,7 +3,6 @@
     "__type__": "cc.Prefab",
     "_name": "progressBar",
     "_objFlags": 0,
-    "_rawFiles": null,
     "data": {
       "__id__": 1
     }
@@ -29,8 +28,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 106,
-      "height": 14
+      "width": 100,
+      "height": 15
     },
     "_children": [
       {
@@ -50,9 +49,9 @@
     "_skewY": 0,
     "_localZOrder": 0,
     "_globalZOrder": 0,
-    "_ignoreAnchorPointForPosition": false,
     "_tag": -1,
     "_opacityModifyRGB": false,
+    "_reorderChildDirty": false,
     "_id": "",
     "_active": true,
     "_components": [
@@ -90,8 +89,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 100,
-      "height": 10
+      "width": 50,
+      "height": 15
     },
     "_children": [],
     "_rotationX": 0,
@@ -107,9 +106,9 @@
     "_skewY": 0,
     "_localZOrder": 0,
     "_globalZOrder": 0,
-    "_ignoreAnchorPointForPosition": false,
     "_tag": -1,
     "_opacityModifyRGB": false,
+    "_reorderChildDirty": false,
     "_id": "",
     "_active": true,
     "_components": [
@@ -133,7 +132,18 @@
       "__uuid__": "67e68bc9-dad5-4ad9-a2d8-7e03d458e32f"
     },
     "_type": 1,
-    "_useOriginalSize": false,
+    "_sizeMode": 0,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
     "_atlas": null
   },
   {
@@ -141,7 +151,9 @@
     "root": {
       "__id__": 1
     },
-    "asset": null,
+    "asset": {
+      "__uuid__": "5965ffac-69da-4b55-bcde-9225d0613c28"
+    },
     "fileId": "38d28QPqAdC1L4aQLAAwhV2"
   },
   {
@@ -156,7 +168,18 @@
       "__uuid__": "88e79fd5-96b4-4a77-a1f4-312467171014"
     },
     "_type": 0,
-    "_useOriginalSize": false,
+    "_sizeMode": 0,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
     "_atlas": null
   },
   {
@@ -172,7 +195,7 @@
     },
     "_N$mode": 0,
     "_N$totalLength": 100,
-    "_N$progress": 1,
+    "_N$progress": 0.5,
     "_N$reverse": false
   },
   {
@@ -180,7 +203,9 @@
     "root": {
       "__id__": 1
     },
-    "asset": null,
+    "asset": {
+      "__uuid__": "5965ffac-69da-4b55-bcde-9225d0613c28"
+    },
     "fileId": "c8bd6EVT6lD4bVMS1d/i0BC"
   }
 ]

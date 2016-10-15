@@ -3,7 +3,6 @@
     "__type__": "cc.Prefab",
     "_name": "sprite",
     "_objFlags": 0,
-    "_rawFiles": null,
     "data": {
       "__id__": 1
     }
@@ -46,9 +45,9 @@
     "_skewY": 0,
     "_localZOrder": 0,
     "_globalZOrder": 0,
-    "_ignoreAnchorPointForPosition": false,
     "_tag": -1,
     "_opacityModifyRGB": false,
+    "_reorderChildDirty": false,
     "_id": "",
     "_active": true,
     "_components": [
@@ -72,7 +71,18 @@
       "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
     },
     "_type": 0,
-    "_useOriginalSize": true,
+    "_sizeMode": 1,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
     "_atlas": null
   },
   {
@@ -81,6 +91,6 @@
       "__id__": 1
     },
     "asset": null,
-    "fileId": "fc177w1xv1BBr2DZVKs5ycH"
+    "fileId": "d7118yAG5lKybkFOAh8koPL"
   }
 ]

@@ -3,7 +3,6 @@
     "__type__": "cc.Prefab",
     "_name": "particlesystem",
     "_objFlags": 0,
-    "_rawFiles": null,
     "data": {
       "__id__": 1
     }
@@ -46,9 +45,9 @@
     "_skewY": 0,
     "_localZOrder": 0,
     "_globalZOrder": 0,
-    "_ignoreAnchorPointForPosition": false,
     "_tag": -1,
     "_opacityModifyRGB": false,
+    "_reorderChildDirty": false,
     "_id": "",
     "_active": true,
     "_components": [
@@ -70,8 +69,10 @@
     "_enabled": true,
     "_custom": false,
     "_file": {
-      "__uuid__": "b8223619-7e38-47c4-841f-9160c232495a"
+      "__uuid__": "b2687ac4-099e-403c-a192-ff477686f4f5"
     },
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
     "playOnLoad": true,
     "_autoRemoveOnFinish": false,
     "_totalParticles": 150,
@@ -155,6 +156,6 @@
       "__id__": 1
     },
     "asset": null,
-    "fileId": "5f955dwqBxLLauVghnNbmiO"
+    "fileId": "868c9k4nqZNHpGMlTm0Yx6q"
   }
 ]

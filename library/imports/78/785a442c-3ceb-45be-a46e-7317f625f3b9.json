@@ -3,7 +3,6 @@
     "__type__": "cc.Prefab",
     "_name": "layout",
     "_objFlags": 0,
-    "_rawFiles": null,
     "data": {
       "__id__": 1
     }
@@ -29,8 +28,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 300,
-      "height": 200
+      "width": 200,
+      "height": 150
     },
     "_children": [],
     "_rotationX": 0,
@@ -46,9 +45,9 @@
     "_skewY": 0,
     "_localZOrder": 0,
     "_globalZOrder": 0,
-    "_ignoreAnchorPointForPosition": false,
     "_tag": -1,
     "_opacityModifyRGB": false,
+    "_reorderChildDirty": false,
     "_id": "",
     "_active": true,
     "_components": [
@@ -75,7 +74,18 @@
       "__uuid__": "9bbda31e-ad49-43c9-aaf2-f7d9896bac69"
     },
     "_type": 1,
-    "_useOriginalSize": false,
+    "_sizeMode": 0,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
     "_atlas": null
   },
   {
@@ -88,12 +98,18 @@
     "_enabled": true,
     "_layoutSize": {
       "__type__": "cc.Size",
-      "width": 300,
-      "height": 200
+      "width": 200,
+      "height": 150
     },
-    "autoResize": true,
+    "_resize": 0,
     "_N$layoutType": 0,
-    "_N$margin": 0,
+    "_N$cellSize": {
+      "__type__": "cc.Size",
+      "width": 40,
+      "height": 40
+    },
+    "_N$startAxis": 0,
+    "_N$padding": 0,
     "_N$spacingX": 0,
     "_N$spacingY": 0,
     "_N$verticalDirection": 1,
@@ -104,7 +120,9 @@
     "root": {
       "__id__": 1
     },
-    "asset": null,
+    "asset": {
+      "__uuid__": "785a442c-3ceb-45be-a46e-7317f625f3b9"
+    },
     "fileId": "7f8d2O3hcNDT55RjJXZrQyg"
   }
 ]

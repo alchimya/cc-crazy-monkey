@@ -3,7 +3,6 @@
     "__type__": "cc.Prefab",
     "_name": "sprite_splash",
     "_objFlags": 0,
-    "_rawFiles": null,
     "data": {
       "__id__": 1
     }
@@ -29,8 +28,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 40,
-      "height": 40
+      "width": 100,
+      "height": 100
     },
     "_children": [],
     "_rotationX": 0,
@@ -48,6 +47,7 @@
     "_globalZOrder": 0,
     "_tag": -1,
     "_opacityModifyRGB": false,
+    "_reorderChildDirty": false,
     "_id": "",
     "_active": true,
     "_components": [
@@ -71,7 +71,6 @@
       "__uuid__": "a23235d1-15db-4b95-8439-a2e005bfff91"
     },
     "_type": 0,
-    "_useOriginalSize": true,
     "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
@@ -92,6 +91,6 @@
       "__id__": 1
     },
     "asset": null,
-    "fileId": "dce78VJiZtIKK1Mxkx/8gKD"
+    "fileId": "1a0f4zwu2VOapqEJkWXIF0R"
   }
 ]

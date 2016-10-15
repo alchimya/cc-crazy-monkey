@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "stop_kakadu": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "516d7565-2793-499c-a988-876b5370f848",
       "rawTextureUuid": "8cadf993-5ff6-4ddf-9cde-cb6036b3cc56",
       "trimType": "auto",
@@ -18,6 +18,8 @@
       "trimY": 14,
       "width": 240,
       "height": 244,
+      "rawWidth": 260,
+      "rawHeight": 260,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

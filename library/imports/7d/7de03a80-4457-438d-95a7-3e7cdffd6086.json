@@ -3,7 +3,6 @@
     "__type__": "cc.Prefab",
     "_name": "tiledmap",
     "_objFlags": 0,
-    "_rawFiles": null,
     "data": {
       "__id__": 1
     }
@@ -46,9 +45,9 @@
     "_skewY": 0,
     "_localZOrder": 0,
     "_globalZOrder": 0,
-    "_ignoreAnchorPointForPosition": false,
     "_tag": -1,
     "_opacityModifyRGB": false,
+    "_reorderChildDirty": false,
     "_id": "",
     "_active": true,
     "_components": [
@@ -67,7 +66,8 @@
     "node": {
       "__id__": 1
     },
-    "_enabled": true
+    "_enabled": true,
+    "_tmxFile": null
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -75,6 +75,6 @@
       "__id__": 1
     },
     "asset": null,
-    "fileId": "cf8d1lOx1NPfaq1yhge7vmF"
+    "fileId": "6d9cbIJlHhJ/4JAwDJiN9SB"
   }
 ]

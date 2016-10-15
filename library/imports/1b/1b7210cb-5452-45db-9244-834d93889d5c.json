@@ -5,7 +5,8 @@
     "_objFlags": 0,
     "scene": {
       "__id__": 1
-    }
+    },
+    "asyncLoadAssets": false
   },
   {
     "__type__": "cc.Scene",
@@ -41,7 +42,8 @@
     "_tag": -1,
     "_opacityModifyRGB": false,
     "_reorderChildDirty": false,
-    "_id": "1b7210cb-5452-45db-9244-834d93889d5c"
+    "_id": "1b7210cb-5452-45db-9244-834d93889d5c",
+    "autoReleaseAssets": false
   },
   {
     "__type__": "cc.Node",
